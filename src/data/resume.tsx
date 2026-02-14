@@ -1,14 +1,15 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, Globe, Github } from "lucide-react";
 
 export const DATA = {
   name: "Ankit Shukla",
   initials: "AS",
   url: "https://www.adityajhaa.co/",
   location: "Gwalior, India",
-  // locationLink: "https://www.google.com/maps/place/sanfrancisco",
+
   description:
     "Full-stack software engineer building scalable, user-focused web applications.",
+
   summary:
     "Full-stack software engineer building scalable, user-focused web applications using React, Node.js, Express, and MongoDB. Strong foundation in Data Structures & Algorithms, REST APIs, authentication, and database design. Proven at shipping production-ready systems with performance, security, and clean architecture in mind.",
 
@@ -34,36 +35,44 @@ export const DATA = {
     "REST APIs",
     "JWT Auth",
   ],
+
   services: [
     {
       title: "Web3 Development",
-      description: "Smart contracts, DeFi protocols, NFT platforms, and blockchain integrations. Experience with Solidity, Rust, and multiple chains.",
+      description:
+        "Smart contracts, DeFi protocols, NFT platforms, and blockchain integrations.",
       icon: "🔗",
     },
     {
       title: "Full-Stack Development",
-      description: "End-to-end web applications with modern frameworks. React, Next.js, TypeScript, Node.js, and cloud deployment.",
+      description:
+        "End-to-end web applications with modern frameworks.",
       icon: "⚡",
     },
     {
       title: "Smart Contract Auditing",
-      description: "Security-focused smart contract reviews and optimizations. Ensuring your contracts are production-ready and secure.",
+      description:
+        "Security-focused smart contract reviews and optimizations.",
       icon: "🔒",
     },
     {
       title: "SaaS Development",
-      description: "Scalable SaaS applications with modern architecture. From MVP to production with performance optimization.",
+      description:
+        "Scalable SaaS applications from MVP to production.",
       icon: "🚀",
     },
   ],
+
   availability: {
     status: "Available",
     message: "Open to new freelance projects and collaborations",
   },
+
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/Resume", icon: NotebookIcon, label: "Resume" },
   ],
+
   contact: {
     email: "ankit77us@gmail.com",
     tel: "+91-9753079128",
@@ -100,7 +109,7 @@ export const DATA = {
       start: "July 2025",
       end: "December 2025",
       description:
-        "Built and deployed client websites using the MERN stack. Converted business requirements into responsive, SEO-friendly UIs, integrated REST APIs, optimized performance and cross-browser compatibility, and handled domain setup, hosting, and production deployment via cPanel on Linux/Windows servers.",
+        "Built and deployed client websites using the MERN stack. Integrated REST APIs, optimized performance, and handled production deployment.",
     },
   ],
 
@@ -112,26 +121,7 @@ export const DATA = {
       logoUrl: "",
       start: "2022",
       end: "Expected June 2026",
-      description:
-        "CGPA: 7.92. Relevant coursework: Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, Software Engineering, Discrete Mathematics.",
-    },
-    {
-      school: "Greenwood Public School, Gwalior (CBSE)",
-      href: "",
-      degree: "Class XII – Senior Secondary",
-      logoUrl: "",
-      start: "2021",
-      end: "2021",
-      description: "Percentage: 86%",
-    },
-    {
-      school: "Greenwood Public School, Gwalior (CBSE)",
-      href: "",
-      degree: "Class X – Secondary",
-      logoUrl: "",
-      start: "2019",
-      end: "2019",
-      description: "Percentage: 90.6%",
+      description: "CGPA: 7.92",
     },
   ],
 
@@ -142,7 +132,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Peer-to-peer skill exchange platform where users book and manage learning sessions. Features real-time chat with Socket.IO, JWT authentication, dashboards for profiles and bookings, and a responsive React + Tailwind UI.",
+        "Peer-to-peer skill exchange platform with real-time chat, JWT auth, dashboards, and responsive UI.",
       technologies: [
         "React",
         "Node.js",
@@ -153,8 +143,16 @@ export const DATA = {
         "Tailwind CSS",
       ],
       links: [
-        { type: "Website", href: "https://ustaad-x.vercel.app/" },
-        { type: "Source", href: "https://github.com/Ankitsgit/Ustaadx-backend" },
+        {
+          icon: <Globe className="h-3 w-3" />,
+          type: "Website",
+          href: "https://ustaad-x.vercel.app/",
+        },
+        {
+          icon: <Github className="h-3 w-3" />,
+          type: "Source",
+          href: "https://github.com/Ankitsgit/Ustaadx-backend",
+        },
       ],
       image: "/ustaadx.png",
       video: "",
@@ -166,7 +164,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Full-stack travel SaaS delivering country-specific utilities such as apps, eSIMs, and emergency info. Built REST APIs with Django, Redis-backed sessions, Celery background tasks, and an SEO-friendly Next.js frontend.",
+        "Full-stack travel SaaS delivering country-specific utilities.",
       technologies: [
         "Next.js",
         "Django REST Framework",
@@ -175,15 +173,22 @@ export const DATA = {
         "Celery",
       ],
       links: [
-        { type: "Website", href: "https://tripbozo.vercel.app/" },
-        { type: "Source", href: "https://github.com/Ankitsgit/tripbozo" },
+        {
+          icon: <Globe className="h-3 w-3" />,
+          type: "Website",
+          href: "https://tripbozo.vercel.app/",
+        },
+        {
+          icon: <Github className="h-3 w-3" />,
+          type: "Source",
+          href: "https://github.com/Ankitsgit/tripbozo",
+        },
       ],
       image: "/tripbozo.png",
       video: "",
     },
   ],
-
-  hackathons: [
+    hackathons: [
     {
       // title: "",
       // dates: "November 23rd - 25th, 2018",
@@ -197,3 +202,5 @@ export const DATA = {
     },
   ],
 } as const;
+
+
