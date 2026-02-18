@@ -187,6 +187,38 @@ export const DATA = {
       image: "/tripbozo.png",
       video: "",
     },
+{
+      title: "TaskFlow – Modern Task Management System",
+      href: "https://taskflow-navy-six.vercel.app/",
+      dates: "2024",
+      active: true,
+      description:
+        "Full-stack task manager with JWT authentication, real-time stats, advanced filtering, and production-grade security. Features protected routes, search/filter capabilities, and responsive dashboard UI.",
+      technologies: [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Tailwind CSS",
+        "Axios",
+      ],
+      links: [
+        {
+          icon: <Globe className="h-3 w-3" />,
+          type: "Website",
+          href: "https://taskflow-navy-six.vercel.app/",
+        },
+        {
+          icon: <Github className="h-3 w-3" />,
+          type: "Source",
+          href: "https://github.com/yourusername/taskflow",
+        },
+      ],
+      image: "/taskflow.png",
+      video: "",
+    },
   ],
     hackathons: [
     {
