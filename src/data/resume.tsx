@@ -147,7 +147,7 @@ export const DATA = {
           href: "https://github.com/Ankitsgit/peektube",
         },
       ],
-      image: "/peektube.png",
+      
       video: "",
     },
     {
