@@ -128,8 +128,8 @@ export const DATA = {
   pprojects: [
      {
       title: "PeekTube – YouTube Channel Hover Preview",
-      href: "https://github.com/Ankitsgit/peeктube",
-      dates: "2025",
+      href: "https://github.com/Ankitsgit/peeкtube",
+      dates: "2026",
       active: true,
       description:
         "Chrome extension that shows an X-style hover card for any YouTube channel link — with live subscriber count, video stats, avatar, and description. Built with Manifest V3, Shadow DOM, and YouTube Data API v3.",
