@@ -126,6 +126,38 @@ export const DATA = {
   ],
 
   pprojects: [
+      {
+        title: "YOLO – 14-Day AI Wellness Reset Platform",
+        href: "https://yolo-wellness-app.vercel.app/",
+        dates: "2025",
+        active: true,
+        description:
+          "Full-stack AI-guided wellness platform for a 14-day habit reset program. Features personalized onboarding with BMR auto-calculation, AI-generated daily meal plans, ingredient-based meal replacement, habit tracking with streak analytics, and a context-aware AI nutrition assistant powered by Groq Llama 3.3 that reads real user data before every response.",
+        technologies: [
+          "React",
+          "Vite",
+          "Node.js",
+          "Express.js",
+          "MongoDB Atlas",
+          "Groq AI",
+          "Llama 3.3",
+          "REST API",
+        ],
+        links: [
+          {
+            icon: <Globe className="h-3 w-3" />,
+            type: "Website",
+            href: "https://yolo-app-six.vercel.app/",
+          },
+          {
+            icon: <Github className="h-3 w-3" />,
+            type: "Source",
+            href: "https://github.com/Ankitsgit/yolo-app",
+          },
+        ],
+        image: "/yolo.png",
+        video: "",
+      },
      {
       title: "PeekTube – YouTube Channel Hover Preview",
       href: "https://github.com/Ankitsgit/peeкtube",
