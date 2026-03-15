@@ -181,7 +181,7 @@ export const DATA = {
       ],
       image: "/peektube.png",
       video: "",
-    },/
+    },
 
     {
       title: "UstaadX – Peer-to-Peer Skill Exchange Platform",
