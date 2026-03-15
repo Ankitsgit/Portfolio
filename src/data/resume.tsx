@@ -128,7 +128,7 @@ export const DATA = {
   pprojects: [
       {
         title: "YOLO – 14-Day AI Wellness Reset Platform",
-        href: "https://yolo-wellness-app.vercel.app/",
+        href: "https://yolo-app-six.vercel.app/",
         dates: "2025",
         active: true,
         description:
